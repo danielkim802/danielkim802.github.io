@@ -1,1 +1,1 @@
-[page1: hi] (page1.md)
+[page1: hi](page1.md)
