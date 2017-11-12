@@ -22,7 +22,7 @@
   7 | 4 | 4 | 4 | 4 | 4 | 4 | 1 | 1 
 
 
-  Part | Topo | B<sub>C</sub> | b (bits/cycle) | $\gamma$ <sub>max</sub> | $\Theta$ <sub>term</sub> (bits/cycle)
+  Part | Topo | B<sub>C</sub> | b (bits/cycle) | γ<sub>max</sub> | Θ<sub>term</sub> (bits/cycle)
   -----|------|------|----------------|-------------|--------------------------
   1.A  |      |      |                |             |                           
   1.B  |      |      |                |             |                          
