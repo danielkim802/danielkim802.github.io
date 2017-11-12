@@ -1,90 +1,62 @@
+# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
-  _ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
-----|---|---|---|---|---|---|---|---
-  0 | 0 | 0 | 2 | 2 | 3 | 3 | 3 | 3 
-  1 | 0 | 0 | 2 | 2 | 3 | 3 | 3 | 3 
-  2 | 2 | 2 | 0 | 0 | 3 | 3 | 3 | 3 
-  3 | 2 | 2 | 0 | 0 | 3 | 3 | 3 | 3 
-  4 | 3 | 3 | 3 | 3 | 0 | 0 | 3 | 3 
-  5 | 3 | 3 | 3 | 3 | 0 | 0 | 3 | 3 
-  6 | 3 | 3 | 3 | 3 | 3 | 3 | 0 | 0 
-  7 | 3 | 3 | 3 | 3 | 3 | 3 | 0 | 0 
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-  _ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
-----|---|---|---|---|---|---|---|---
-  0 | 1 | 1 | 3 | 3 | 4 | 4 | 4 | 4 
-  1 | 1 | 1 | 3 | 3 | 4 | 4 | 4 | 4 
-  2 | 3 | 3 | 1 | 1 | 4 | 4 | 4 | 4 
-  3 | 3 | 3 | 1 | 1 | 4 | 4 | 4 | 4 
-  4 | 4 | 4 | 4 | 4 | 1 | 1 | 4 | 4 
-  5 | 4 | 4 | 4 | 4 | 1 | 1 | 4 | 4 
-  6 | 4 | 4 | 4 | 4 | 4 | 4 | 1 | 1 
-  7 | 4 | 4 | 4 | 4 | 4 | 4 | 1 | 1 
+## Preview
 
+[![Freelancer Preview](https://startbootstrap.com/assets/img/templates/freelancer.jpg)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
 
-Part | Topo                   | B<sub>C</sub> | b (bits/cycle) | γ<sub>max</sub> | Θ<sub>term</sub> (bits/cycle)
------|------------------------|---------------|----------------|-----------------|-----------------------------
-1.A  | Baseline Tree Topology | 2             | 32             | 2               | 16                        
-1.B  | Fat-Tree Topology      | 8             | 32             | 0.5             | 32                        
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-freelancer/)**
 
-Part | Topo                   | H<sub>D</sub>   | H<sub>r</sub>          | t<sub>r</sub> (cycles) | H<sub>c</sub> | t<sub>c</sub> | L/b (cycles) | t<sub>0</sub> (cycles)
------|------------------------|-----------------|------------------------|------------------------|---------------|---------------|--------------|-----------------------
-1.A  | Baseline Tree Topology | 4               | 5.625                  | 2                      | 2.125         | 1             | 3            | 16.375
-1.B  | Fat-Tree Topology      | 4               | 5.625                  | 3.67                   | 2.125         | 1             | 3            | 25.75
+## Status
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
 
-Instr | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ |
-------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-lw    | f | D | X | M | W |   |   |   |   |   |   |   |   |   |   |
-lw    |   | f | D | X | M | W |   |   |   |   |   |   |   |   |   |
-mul   |   |   | f | D | X | M | W |   |   |   |   |   |   |   |   |
-mul   |   |   |   | f | D | X | M | W |   |   |   |   |   |   |   |
-add   |   |   |   |   | f | D | X | M | W |   |   |   |   |   |   |
-add   |   |   |   |   |   | f | D | X | M | W |   |   |   |   |   |
-addi  |   |   |   |   |   |   | f | D | X | M | W |   |   |   |   |
-addi  |   |   |   |   |   |   |   | f | D | X | M | W |   |   |   |
-bne   |   |   |   |   |   |   |   |   | f | D | X | M | W |   |   |
-opA   |   |   |   |   |   |   |   |   |   | f | D | - | - | - |   |
-opB   |   |   |   |   |   |   |   |   |   |   | f | - | - | - | - |
+## Download and Installation
 
-Instr | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ |
-------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-lw    | f | D | B0| B1| W |   |   |   |   |   |   |   |   |   |   |
-lw    | f | D | D | B0| B1| W |   |   |   |   |   |   |   |   |   |
-mul   |   | f | D | A0| A1| W |   |   |   |   |   |   |   |   |   |
-mul   |   | f | f | D | A0| A1| W |   |   |   |   |   |   |   |   |
-add   |   |   | f | D | B0| B1| W |   |   |   |   |   |   |   |   |
-add   |   |   |   | f | D | A0| A1| W |   |   |   |   |   |   |   |
-addi  |   |   |   | f | D | B0| B1| W |   |   |   |   |   |   |   |
-addi  |   |   |   |   | f | D | A0| A1| W |   |   |   |   |   |   |
-bne   |   |   |   |   | f | D | D | A0| A1| W |   |   |   |   |   |
-opA   |   |   |   |   |   | f | D | B0| - | - |   |   |   |   |   |
-opB   |   |   |   |   |   | f | f | D | - | - | - |   |   |   |   |
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/freelancer/)
+* Install via npm: `npm i startbootstrap-freelancer`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
 
-Instr | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ |
-------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-lw    | f | D | B0| B1| W |   |   |   |   |   |   |   |   |   |   |
-mul   | f | D | A0| A1| W |   |   |   |   |   |   |   |   |   |   |
-lw    |   | f | D | B0| B1| W |   |   |   |   |   |   |   |   |   |
-mul   |   | f | D | A0| A1| W |   |   |   |   |   |   |   |   |   |
-add   |   |   | f | D | B0| B1| W |   |   |   |   |   |   |   |   |
-add   |   |   | f | D | A0| A1| W |   |   |   |   |   |   |   |   |
-addi  |   |   |   | f | D | B0| B1| W |   |   |   |   |   |   |   |
-addi  |   |   |   | f | D | A0| A1| W |   |   |   |   |   |   |   |
-bne   |   |   |   |   | f | D | A0| A1| W |   |   |   |   |   |   |
-opA   |   |   |   |   | f | D | B0| - | - |   |   |   |   |   |   |
-opB   |   |   |   |   |   | f | D | - | - | - |   |   |   |   |   |
+## Usage
 
-Instr | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ | _ |
-------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-lw    | f | D | B0| B1| W |   |   |   |   |   |   |   |   |   |   |
-mul   | f | D | A0| A1| W |   |   |   |   |   |   |   |   |   |   |
-lw    | f | D | H0| H1| W |   |   |   |   |   |   |   |   |   |   |
-mul   | f | D | G0| G1| W |   |   |   |   |   |   |   |   |   |   |
-add   |   | f | D | A0| A1| W |   |   |   |   |   |   |   |   |   |
-add   |   | f | D | B0| B1| W |   |   |   |   |   |   |   |   |   |
-addi  |   | f | D | G0| G1| W |   |   |   |   |   |   |   |   |   |
-addi  |   | f | D | H0| H1| W |   |   |   |   |   |   |   |   |   |
-bne   |   |   | f | D | B0| B1| W |   |   |   |   |   |   |   |   |
+### Basic Usage
 
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
+### Advanced Usage
+
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
+
+## Custom Builds
+
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
