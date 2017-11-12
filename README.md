@@ -22,8 +22,8 @@
   7 | 4 | 4 | 4 | 4 | 4 | 4 | 1 | 1 
 
 
-  Part | Topo | B<sub>C</sub> | b (bits/cycle) | γ<sub>max</sub> | Θ<sub>term</sub> (bits/cycle)
-  -----|------|------|----------------|-------------|--------------------------
-  1.A  |      |      |                |             |                           
-  1.B  |      |      |                |             |                          
+  Part | Topo                   | B<sub>C</sub> | b (bits/cycle) | γ<sub>max</sub> | Θ<sub>term</sub> (bits/cycle)
+  -----|------------------------|---------------|----------------|-----------------|-----------------------------
+  1.A  | Baseline Tree Topology | 2             | 32             | 2               | 16                        
+  1.B  | Fat-Tree Topology      |               | 32             |                 |                           
   
