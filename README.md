@@ -27,7 +27,7 @@
   1.A  | Baseline Tree Topology | 2             | 32             | 2               | 16                        
   1.B  | Fat-Tree Topology      |               | 32             |                 |                           
   
-  Part | Topo | H<sub>D</sub>   | H<sub>r</sub>   | t<sub>r</sub> (cycles) | H<sub>c</sub> | t<sub>c</sub> | L/b (cycles) | t<sub>0</sub> (cycles)
-  -----|------------------------|-----------------|------------------------|---------------|---------------|--------------|-----------------------
-  1.A  | Baseline Tree Topology | 5.625           | 2                      | 2.125         | 1             |              |
-  1.B  | Fat-Tree Topology      | 5.625           | 2                      | 2.125         | 1             |              |
+  Part | Topo                   | H<sub>D</sub>   | H<sub>r</sub>          | t<sub>r</sub> (cycles) | H<sub>c</sub> | t<sub>c</sub> | L/b (cycles) | t<sub>0</sub> (cycles)
+  -----|------------------------|-----------------|------------------------|------------------------|---------------|---------------|--------------|-----------------------
+  1.A  | Baseline Tree Topology | 5.625           | 2                      | 2.125                  | 1             |               |              |
+  1.B  | Fat-Tree Topology      | 5.625           | 2                      | 2.125                  | 1             |               |              |
